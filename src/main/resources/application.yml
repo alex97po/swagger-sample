@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/godevtask2?serverTimezone=UTC
+    username: root
+    password: 1234
+  jpa:
+    database: mysql
+
+pg:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/rostislav
+    username: postgres
+    password: postgres
+  jpa:
+    database: postgresql
