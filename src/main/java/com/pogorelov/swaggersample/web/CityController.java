@@ -16,6 +16,10 @@ public class CityController {
 
     private final CityService cityService;
 
+    /*
+    * Это комментарий, чтобы показать на GitHub
+    * */
+
     @GetMapping
     public List<City> getAllCities() {
         return cityService.getAllCities();
